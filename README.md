@@ -1,2 +1,2 @@
 # UPP
-motivational letter/CV assistant 
+Secure Locker System
