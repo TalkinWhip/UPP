@@ -13,3 +13,19 @@ class User:
         
 
         # TODO: create x users automatically
+class Lock:
+    def __init__(self, pin:int):
+        self.pin = pin
+        # self define lock_id --> pins from left to right, top to bottom, so lockers are consistantly numbered.
+        # allocate user
+        pass
+
+class LedStrip:
+    def __init__(self, pin:int, lock_id:int):
+        # statically connect to lock
+        pass
+class Sensor:
+    def __init__(self, pin:int, lock_id:int):
+        # statically connect to lock 
+        pass
+

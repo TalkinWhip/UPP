@@ -1,5 +1,6 @@
 '''
 using module as a singleton class.
+Super user always has ID of 0
 '''
 
 __uid = 0
@@ -26,6 +27,8 @@ def getUserName():
     return __userName
 def getSaltedUID():
     return __saltedUID
+def getUID():
+    return __uid
 
 
 
